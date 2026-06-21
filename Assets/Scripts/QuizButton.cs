@@ -1,14 +1,19 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class QuizButton : MonoBehaviour, IInteractable
 {
-    [SerializeField] private string interactionPrompt = "See solar system";
+    [SerializeField] private string objectInteractMessage;
+    [SerializeField] private int buttonId;
+    [SerializeField] private QuizManager sequenceManager;
 
-    public string InteractionPrompt => interactionPrompt;
+    public string InteractionMessage => objectInteractMessage;
 
-    public bool Interact(Interactor interactor)
+
+    bool IInteractable.Interact()
     {
-
+        sequenceManager.ButtonPressed(buttonId);
         return true;
     }
 }

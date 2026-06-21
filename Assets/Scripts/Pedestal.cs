@@ -3,9 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class Pedestal : MonoBehaviour, IInteractable
 {
-	[SerializeField] private string interactionPrompt = "See solar system";
-	public string InteractionPrompt => interactionPrompt;
-	public bool Interact(Interactor interactor)
+	[SerializeField] private string interactionMessage = "See solar system";
+	public string InteractionMessage => interactionMessage;
+	public bool Interact()
 	{
 		Debug.Log("Interacted with the pedestal to see the solar system.");
 		Cursor.lockState = CursorLockMode.None;

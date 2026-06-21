@@ -2,6 +2,6 @@ using UnityEngine;
 
 public interface IInteractable
 {
-	public string InteractionPrompt { get; }
-	public bool Interact(Interactor interactor);
+	public string InteractionMessage { get; }
+	public bool Interact();
 }
