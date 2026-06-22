@@ -2553,7 +2553,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1895630782310919206, guid: 713ff82559479fe47a8ff52ec00629c5, type: 3}
       propertyPath: m_fontSize
-      value: 6.7
+      value: 5.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895630782310919206, guid: 713ff82559479fe47a8ff52ec00629c5, type: 3}
+      propertyPath: m_margin.w
+      value: 8.148675
       objectReference: {fileID: 0}
     - target: {fileID: 1895630782310919206, guid: 713ff82559479fe47a8ff52ec00629c5, type: 3}
       propertyPath: m_HorizontalAlignment
@@ -2770,13 +2774,16 @@ PrefabInstance:
       value: 'Vul in volgorde de getallen van de snelheid van het licht in
 
 
-
         0
         1 2 3 4 5 6 7 8 9'
       objectReference: {fileID: 0}
     - target: {fileID: 1895630782310919206, guid: 713ff82559479fe47a8ff52ec00629c5, type: 3}
       propertyPath: m_fontSize
-      value: 5.8
+      value: 5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895630782310919206, guid: 713ff82559479fe47a8ff52ec00629c5, type: 3}
+      propertyPath: m_margin.w
+      value: 10.607896
       objectReference: {fileID: 0}
     - target: {fileID: 1895630782310919206, guid: 713ff82559479fe47a8ff52ec00629c5, type: 3}
       propertyPath: m_HorizontalAlignment
@@ -9768,7 +9775,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1895630782310919206, guid: 713ff82559479fe47a8ff52ec00629c5, type: 3}
       propertyPath: m_fontSize
-      value: 6.55
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895630782310919206, guid: 713ff82559479fe47a8ff52ec00629c5, type: 3}
+      propertyPath: m_margin.w
+      value: 9.027535
       objectReference: {fileID: 0}
     - target: {fileID: 1895630782310919206, guid: 713ff82559479fe47a8ff52ec00629c5, type: 3}
       propertyPath: m_HorizontalAlignment

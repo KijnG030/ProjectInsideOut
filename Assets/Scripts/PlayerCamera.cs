@@ -12,6 +12,7 @@ public class PlayerCamera : MonoBehaviour
     private void Awake()
     {
         input = playerBody.GetComponent<PlayerInputController>();
+        Cursor.visible = false;
     }
 
     private void Update()
